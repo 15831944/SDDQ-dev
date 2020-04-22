@@ -1,0 +1,22 @@
+﻿<Window x:Name="Window2" x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="新增导线" Height="450" Width="300">
+    <Grid Width="270" Height="420">
+        <TextBox x:Name="textBox1" Height="20" Margin="10,10,10,389" TextWrapping="Wrap" Text="来源"/>
+        <TextBox x:Name="textBox2" Height="20" Margin="10,45,10,354" TextWrapping="Wrap" Text="型号"/>
+        <TextBox x:Name="textBox3" Height="20" Margin="10,80,10,319" TextWrapping="Wrap" Text="截面mm^2"/>
+        <TextBox x:Name="textBox4" Height="20" Margin="10,115,10,284" TextWrapping="Wrap" Text="外径mm"/>
+        <TextBox x:Name="textBox5" Height="20" Margin="10,150,10,249" TextWrapping="Wrap" Text="单位质量kg/m"/>
+        <TextBox x:Name="textBox6" Height="20" Margin="10,185,10,214" TextWrapping="Wrap" Text="额定拉断力N"/>
+        <TextBox x:Name="textBox7" Height="20" Margin="10,220,10,179" TextWrapping="Wrap" Text="弹性系数N/mm^2"/>
+        <TextBox x:Name="textBox8" Height="20" Margin="10,255,10,144" TextWrapping="Wrap" Text="线膨胀系数1/℃"/>
+        <TextBox x:Name="textBox9" Height="20" Margin="10,290,10,109" TextWrapping="Wrap" Text="20℃直流电阻Ω/km"/>
+        <CheckBox x:Name="checkBox1" Content="锁定" Margin="110,330,110,70" Height="20" Width="50" FontSize="14"/>
+        <Button x:Name="button1" Content="添加" Margin="95,0,95,30" VerticalAlignment="Bottom" Width="80" Height="20" Click="button1_Click"/>
+    </Grid>
+</Window>
