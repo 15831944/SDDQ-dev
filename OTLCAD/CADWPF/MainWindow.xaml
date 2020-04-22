@@ -112,7 +112,7 @@
                               Click="MenuItem_Click"/>
                         <Separator/>
                         <MenuItem Header="导线库(_L)"
-                             Click="MenuItem_Click"/>
+                             Click="ConductorBase_Click"/>
                     </MenuItem>
                     <MenuItem Header="绝缘子串(_S)">
                         <MenuItem Header="金具串(_F)"

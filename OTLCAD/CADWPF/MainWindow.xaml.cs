@@ -21,7 +21,7 @@ namespace CADWPF
     
         public WorkEnvironment WindowTitle { get; set; } = WorkEnvironment.Instance;
 
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        private void ConductorBase_Click(object sender, RoutedEventArgs e)
         {
             ConductorBase w1 = new ConductorBase();  //实例化ConductorBase窗体w1
             w1.Show();

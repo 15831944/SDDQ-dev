@@ -4,10 +4,11 @@ using System.Collections.Generic;
 
 namespace SDDQCore
 {
-    public  class ProjectInfo
+
+       public class ProjectInfo
     {
         /// <summary>  名称  </summary>       
-        public string Name { get; set; }        
+        public string Name { get; set; }     /
         public SortedSet<Voltage> Voltages { get; set; } 
         /// <summary>重力加速度 </summary>  
         public double g { get; set; }
